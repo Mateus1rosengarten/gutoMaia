@@ -11,14 +11,6 @@ const Container = styled.div`
   background-color: #f9f9f9;
 `;
 
-const Heading = styled.h1`
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #333;
-  text-align: center;
-  margin-bottom: 3rem; 
-`;
-
 const ButtonContainer = styled.div`
   display: flex;
   flex-direction: column;

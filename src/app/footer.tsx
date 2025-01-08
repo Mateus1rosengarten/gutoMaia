@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import styled from "styled-components";
 
 const Footer = styled.footer`
@@ -39,14 +38,6 @@ const FooterLeft = styled.div`
 
   }
 `;
-
-const LogoIcon = styled.div `
-width:5vw;
-height:10px;
-margin: auto;
-padding-bottom:10vh;
-
-`
 
 
 const SocialIconsFooter = styled.div`
