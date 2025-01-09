@@ -44,6 +44,7 @@ font-family: "Merriweather", serif;
 position: relative;
 display:flex;
 flex-direction :column;
+margin-top: 2rem;
 
 
   @media (max-width: 768px) {
@@ -52,6 +53,7 @@ flex-direction :column;
    padding:2rem;
    width:100%;
    font-size:1rem;
+   margin-top: 0;
    
   }
 

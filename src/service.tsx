@@ -170,7 +170,7 @@ const Service: React.FunctionComponent = () => {
         
         </ServiceCard>
         <ServiceCard>
-          <h3 className="card-title"><strong>Terapias Online</strong></h3>
+          <h3 className="card-title"><strong>Terapias Online com Flexibilidade</strong></h3>
           <p className="card-text">Acredito que a inclusão e o apoio não devem ter fronteiras. Por isso, meu serviço é totalmente online, proporcionando a possibilidade de atender pessoas sem limitações geográficas. <strong>As terapias são realizadas via EAD</strong>, garantindo flexibilidade e comodidade para quem precisa de apoio.</p>
           <Button href={`https://wa.me/5511993784603?text=${customMessage}`} target="_blank">
           <img className="icon" src="./images/whatsapp.png" alt="WhatsApp" />

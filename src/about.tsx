@@ -95,8 +95,13 @@ const FirstImageContainer = styled.div`
 }
 @media (min-width: 1250px) {
 width: 45%;
-height: 350px;
-}      
+height: 400px;
+}  
+
+@media (min-width: 1600px) {
+width: 45%;
+height: 320px;
+}  
 `;
 
 const SecondImageContainer = styled.div`
@@ -128,6 +133,11 @@ const SecondImageContainer = styled.div`
 
 }
 @media (min-width: 1250px) {
+width: 45%;
+height: 750px;
+}  
+
+@media (min-width: 1600px) {
 width: 45%;
 height: 600px;
 }  

@@ -10,11 +10,14 @@ const NavBar = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  min-height: 5vh;
+  min-height: 80px;
   background-color: #fff; 
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   z-index: 999;
+   @media (max-width: 768px) {
+   min-height: 60px;
+    }
 `;
 
 const NavList = styled.ul`
@@ -134,10 +137,10 @@ const Navbar: React.FC<NavBarProps> = ({ toggle,isOpen }) => {
   return (
     <NavBar>
        <NavLogo isOpen={isOpen}>
-          <Image src={'/images/logo1.png'} alt="logo" width={150} height={120} objectFit="cover" />
+          <Image src={'/images/logo1.png'} alt="logo" width={150} height={80} objectFit="cover" />
         </NavLogo>
         <NavLogoMobile isOpen={isOpen}>
-          <Image src={'/images/logo1.png'} alt="logo" width={150} height={80} objectFit="cover" />
+          <Image src={'/images/logo1.png'} alt="logo" width={150} height={60} objectFit="cover" />
         </NavLogoMobile>
       <NavList>
         <NavItem>
