@@ -86,6 +86,7 @@ display:none;
 display: ${({ isOpen }) => (isOpen ? 'none' : 'block')};
 width: 120px;
 height: 100px;
+margin-top:1rem;
 display:block;
   }
 
