@@ -57,12 +57,40 @@ cursor:pointer;
 display: ${({ isOpen }) => (isOpen ? 'none' : 'block')};
 width: 120px;
 height: 100px;
+display:none;
   }
 
   @media (max-width: 550px) {
 display: ${({ isOpen }) => (isOpen ? 'none' : 'block')};
 width: 120px;
 height: 100px;
+display:none;
+  }
+`
+
+const NavLogoMobile = styled.div.withConfig({
+  shouldForwardProp:(props) => props !== 'isOpen',
+}) <{isOpen : boolean}>`
+width: 150px;
+height: 120px;
+position: absolute;
+top:0;
+right:0;
+cursor:pointer;
+display:none;
+
+ @media (max-width: 768px) {
+display: ${({ isOpen }) => (isOpen ? 'none' : 'block')};
+width: 120px;
+height: 100px;
+display:block;
+  }
+
+  @media (max-width: 550px) {
+display: ${({ isOpen }) => (isOpen ? 'none' : 'block')};
+width: 120px;
+height: 100px;
+
   }
 `
 
@@ -70,7 +98,7 @@ height: 100px;
 const NavLink = styled.a`
   text-decoration: none;
   color: inherit;
-  display: block;
+ 
 `;
 
 const StyledButton = styled.button.withConfig({
@@ -108,6 +136,9 @@ const Navbar: React.FC<NavBarProps> = ({ toggle,isOpen }) => {
        <NavLogo isOpen={isOpen}>
           <Image src={'/images/logo1.png'} alt="logo" width={150} height={120} objectFit="cover" />
         </NavLogo>
+        <NavLogoMobile isOpen={isOpen}>
+          <Image src={'/images/logo1.png'} alt="logo" width={150} height={80} objectFit="cover" />
+        </NavLogoMobile>
       <NavList>
         <NavItem>
           <NavLink href="#home">Home</NavLink>

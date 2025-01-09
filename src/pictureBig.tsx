@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const PictureComponent = styled.div`
   width: 100vw;
-  height: 55vh; 
+  height: 50vh; 
   min-height:300px;
   background-image: url('/images/palestra.jpeg');
   background-size: cover;
@@ -12,7 +12,8 @@ const PictureComponent = styled.div`
   cursor:pointer;
 
  @media (max-width: 768px) {
-    height:30vh;
+    height:20vh;
+     min-height:200px;
 }
 `
 

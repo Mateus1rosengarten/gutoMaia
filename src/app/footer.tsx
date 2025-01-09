@@ -155,7 +155,7 @@ const FooterSection: React.FunctionComponent = () => {
           </SocialIconsFooter>
         </FooterLeft>
         <CopyrightText>
-          <p>&copy; {getCurrentYear()} Guto Maia (CBO 2394-40/45). Todos os direitos reservados.</p>
+          <p>&copy; {getCurrentYear()} José Augusto Maia Baptista(CBO 2394-40/45). Todos os direitos reservados.</p>
         </CopyrightText>
      
 

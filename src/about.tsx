@@ -23,6 +23,10 @@ const Row = styled.div`
   margin-bottom: 8vh; 
   gap: 4vw; 
   flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    margin-bottom:1rem;
+    }
 `;
 
 const TextContainer = styled.div`
@@ -135,7 +139,7 @@ const About: React.FunctionComponent = () => {
       <Row>
         <TextContainer>
           <h2 className="about-me">
-            Guto Maia é <strong>neuropsicopedagogo</strong>, <strong>escritor</strong>, <strong>professor</strong> e <strong>palestrante</strong> apaixonado por transformar a vida de pessoas portadoras de deficiência e suas famílias. <strong>Pai de Pedro, um jovem autista</strong>, sua experiência pessoal é o que mais o motiva a trabalhar com inclusão, acessibilidade e apoio emocional. Seu compromisso é genuíno, guiado por empatia e uma profunda vontade de fazer a diferença.
+            Guto Maia é <strong>neuropsicopedagogo</strong>, <strong>escritor</strong>, <strong>professor</strong> e <strong>palestrante</strong> apaixonado por transformar a vida de pessoas com deficiência e suas famílias. <strong>Pai de Pedro, um jovem autista</strong>, sua experiência pessoal é o que mais o motiva a trabalhar com inclusão, acessibilidade e apoio emocional. Seu compromisso é genuíno, guiado por empatia e uma profunda vontade de fazer a diferença.
           </h2>
         </TextContainer>
         <FirstImageContainer />
@@ -144,7 +148,7 @@ const About: React.FunctionComponent = () => {
         <SecondImageContainer />
         <TextContainer>
           <h2 className="about-me">
-            Guto é pós-graduado em <strong>Neuropsicopedagogia, Docência do Ensino Superior e Direitos Humanos, Saúde, Acessibilidade e Inclusão</strong> pela ENSP/Fiocruz, com <strong>11 cursos de extensão</strong> e <strong>autor de três livros</strong> sobre neurodiversidade e inclusão. É <strong>professor convidado na ENSP/Fiocruz</strong> e <strong>palestrante</strong> renomado em eventos sobre inclusão e educação adaptada. Com vasta experiência prática, foi <strong>coordenador de projetos socioeducativos</strong> e <strong>conselheiro de saúde pública</strong>, atuando em organizações como APAEs e ONGs especializadas em deficiências. Sua carreira é marcada pela busca por inovação e transformação na educação e inclusão social.<strong>(CBO 2394-40/45)</strong>
+            Guto é pós-graduado em <strong>Neuropsicopedagogia, Docência do Ensino Superior e Direitos Humanos, Saúde, Acessibilidade e Inclusão</strong> pela ENSP/Fiocruz, com <strong>11 cursos de extensão</strong> e <strong>autor de três livros</strong> sobre neurodiversidade complexa e inclusão. É <strong>professor convidado na ENSP/Fiocruz</strong> e <strong>palestrante</strong> renomado em eventos sobre inclusão e educação adaptada. Com vasta experiência prática, foi <strong>coordenador de projetos socioeducativos</strong> e <strong>conselheiro de saúde pública</strong>, atuando em organizações como APAEs e ONGs especializadas em deficiências, atuando também na implantação do InovaUSP Acessibilidade, fortalecendo a inovação em acessibilidade no ambiente acadêmico. Sua carreira é marcada pela busca por inovação e transformação na educação e inclusão social.
           </h2>
         </TextContainer>
       </Row>

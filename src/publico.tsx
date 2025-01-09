@@ -31,6 +31,7 @@ const IconWrapper = styled.div `
 
    @media (max-width: 768px) {
     margin-bottom:40px;
+    font-size: 10px; 
     
   }
 `
@@ -114,7 +115,7 @@ const TargetPublic: React.FunctionComponent = () => {
                 </IconWrapper>
                 <IconWrapper> 
                 <NeuroDivergentesImage />
-                <Title>Nerodivergentes</Title>
+                <Title>Neurodiversidade complexa</Title>
                 </IconWrapper>
             </Container>
 
