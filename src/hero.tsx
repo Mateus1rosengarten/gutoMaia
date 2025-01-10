@@ -20,7 +20,7 @@ justify-content: space-evenly;
 
 const HeroImage = styled.div`
   position: relative;
-  margin-top:2rem;
+  margin-top:4rem;
   width: 240px;
   height: 240px;
   background-size: cover;
@@ -113,8 +113,8 @@ const HeroSection:React.FunctionComponent = () => {
         <Hero id="home">
             <HeroImage />
             <HeroText>
-                <h1>Oi, eu sou Prof. José Augusto Maia Baptista (Guto Maia)</h1>
-                <h2 className="hero-h2">Ofereco assistência personalizada para pessoas com deficiência e suas famílias, também atuo em contextos acadêmicos e institucionais. Minha missão é ajudar no dia a dia, oferecendo suporte prático e humano, sempre buscando o melhor cuidado e a qualidade de vida para quem precisa. Estou aqui para facilitar essa jornada! </h2>
+                <h1>Oi, eu sou Prof. J Augusto Maia Baptista (Guto Maia)</h1>
+                <h2 className="hero-h2">Ofereco assistência personalizada para pessoas com deficiência e suas famílias, também atendo em contextos acadêmicos e institucionais. Minha missão é ajudar no dia a dia, oferecendo suporte prático e humano, sempre buscando o melhor cuidado e a qualidade de vida para quem precisa. Estou aqui para facilitar essa jornada! </h2>
 <HeroButton
 onClick={handleOpenWhats}
 >Marque Agora sua Primeira Consulta Gratuita</HeroButton>          

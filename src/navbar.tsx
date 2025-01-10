@@ -58,14 +58,14 @@ cursor:pointer;
 
  @media (max-width: 768px) {
 display: ${({ isOpen }) => (isOpen ? 'none' : 'block')};
-width: 120px;
+width: 100px;
 height: 100px;
 display:none;
   }
 
   @media (max-width: 550px) {
 display: ${({ isOpen }) => (isOpen ? 'none' : 'block')};
-width: 120px;
+width: 100px;
 height: 100px;
 display:none;
   }
@@ -87,6 +87,7 @@ display: ${({ isOpen }) => (isOpen ? 'none' : 'block')};
 width: 120px;
 height: 100px;
 margin-top:1rem;
+padding-left:1rem;
 display:block;
   }
 
@@ -141,7 +142,7 @@ const Navbar: React.FC<NavBarProps> = ({ toggle,isOpen }) => {
           <Image src={'/images/logo1.png'} alt="logo" width={150} height={80} objectFit="cover" />
         </NavLogo>
         <NavLogoMobile isOpen={isOpen}>
-          <Image src={'/images/logo1.png'} alt="logo" width={150} height={60} objectFit="cover" />
+          <Image src={'/images/logo1.png'} alt="logo" width={120} height={60} objectFit="cover" />
         </NavLogoMobile>
       <NavList>
         <NavItem>
