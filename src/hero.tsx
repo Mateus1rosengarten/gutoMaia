@@ -114,7 +114,7 @@ const HeroSection:React.FunctionComponent = () => {
             <HeroImage />
             <HeroText>
                 <h1>Oi, eu sou Prof. J Augusto Maia Baptista (Guto Maia)</h1>
-                <h2 className="hero-h2">Ofereco assistência personalizada para pessoas com deficiência e suas famílias, também atendo em contextos acadêmicos e institucionais. Minha missão é ajudar no dia a dia, oferecendo suporte prático e humano, sempre buscando o melhor cuidado e a qualidade de vida para quem precisa. Estou aqui para facilitar essa jornada! </h2>
+                <h2 className="hero-h2">Ofereco assistência personalizada para pessoas com deficiência e suas famílias, atendo também  em contextos acadêmicos e institucionais. Minha missão é ajudar no dia a dia, oferecendo suporte prático e humano, sempre buscando o melhor cuidado e a qualidade de vida para quem precisa. Estou aqui para facilitar essa jornada! </h2>
 <HeroButton
 onClick={handleOpenWhats}
 >Marque Agora sua Primeira Consulta Gratuita</HeroButton>          

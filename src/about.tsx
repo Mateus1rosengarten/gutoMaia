@@ -96,11 +96,13 @@ const FirstImageContainer = styled.div`
 @media (min-width: 1250px) {
 width: 45%;
 height: 400px;
+background-position: top;
 }  
 
 @media (min-width: 1600px) {
 width: 45%;
 height: 320px;
+background-position: top;
 }  
 `;
 
