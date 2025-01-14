@@ -160,8 +160,7 @@ const About: React.FunctionComponent = () => {
         <SecondImageContainer />
         <TextContainer>
           <h2 className="about-me">
-            Guto é pós-graduado em <strong>Neuropsicopedagogia, Docência do Ensino Superior e Direitos Humanos, Saúde, Acessibilidade e Inclusão</strong> pela ENSP/Fiocruz, com <strong>11 cursos de extensão</strong> e <strong>autor de três livros</strong> sobre neurodiversidade complexa e inclusão. É <strong>professor convidado na ENSP/Fiocruz</strong> e <strong>palestrante</strong> renomado em eventos sobre inclusão e educação adaptada. Com vasta experiência prática, foi <strong>coordenador de projetos socioeducativos</strong> e <strong>conselheiro de saúde pública</strong>, atuando em organizações como APAEs e ONGs especializadas em deficiências, atuando também na implantação do InovaUSP Acessibilidade, fortalecendo a inovação em acessibilidade no ambiente acadêmico. Sua carreira é marcada pela busca por inovação e transformação na educação e inclusão social.
-          </h2>
+          Guto é pós-graduado em Neuropsicopedagogia, Docência do Ensino Superior e Direitos Humanos, Saúde, Acessibilidade e Inclusão pela ENSP/Fiocruz, com 11 cursos de extensão e autor de três livros sobre neurodiversidade complexa e inclusão. É professor licenciado convidado na pós-graduação ENSP/Fiocruz e palestrante atuante em eventos sobre acessibilidade e educação adaptada. Com vasta experiência prática, foi coordenador de projetos socioeducativos e conselheiro de saúde pública , atuando em organizações como APAEs e ONGs especializadas em deficiências. Vem trabalhando na implantação do Núcleo InovaUSP Acessibilidade, fortalecendo a inovação em acessibilidade no ambiente acadêmico. Sua carreira é marcada pela busca por inovação e transformação na educação e inclusão social.          </h2>
         </TextContainer>
       </Row>
     </Container>
