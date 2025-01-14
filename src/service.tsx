@@ -179,7 +179,7 @@ const Service: React.FunctionComponent = () => {
         </ServiceCard>
         <ServiceCard>
           <h3 className="card-title"><strong>Agendamentos e Pacotes</strong></h3>
-          <p className="card-text">Ofereçemos<strong> terapias avulsas</strong> para atendimentos pontuais e <strong>pacotes de 4 sessões</strong> para um acompanhamento mais contínuo.<br/> Além disso, <strong>oferecemos descontos especiais</strong> para pessoas selecionadas garantindo que o acesso ao tratamento seja acessivel para todos.Consulte-nos!</p>
+          <p className="card-text">Ofereçemos<strong> terapias avulsas</strong> para atendimentos pontuais e <strong>pacotes de 4 sessões</strong> para um acompanhamento mais contínuo.<br/> Além disso, <strong>oferecemos descontos especiais</strong> para pessoas selecionadas garantindo que o acesso ao tratamento seja acessivel para todos.</p>
           <Button href={`https://wa.me/5511993784603?text=${customMessage}`} target="_blank">
           <img className="icon" src="./images/whatsapp.png" alt="WhatsApp" />
           <span>(11) 99378-4603</span>
