@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Guto Maia Page",
-  description: "Servicos de Terapia",
+  title: "Prof.J Augusto Maia(Guto Maia)",
+  description:"Terapia para Neurodivergêntes complexos e apoio às famílias.",
 };
 
 export default function RootLayout ({

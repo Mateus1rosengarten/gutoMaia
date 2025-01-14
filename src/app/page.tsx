@@ -1,6 +1,4 @@
-// pages/index.tsx or wherever your Home component resides
 "use client";
-
 import HeroSection from "@/hero";
 import Footer from "./footer";
 import TargetPublic from "@/publico";
@@ -21,16 +19,14 @@ export default function Home() {
     setIsOpen(!isOpen);
   };
 
-  // Simulate loading for a short period to show the loader
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsLoading(false); // Stop loading after a delay
-    }, 1000); // Adjust this time based on your needs
+      setIsLoading(false); 
+    }, 200);
 
     return () => clearTimeout(timer);
   }, []);
 
-  // If the page is still loading, show the loader
   if (isLoading) {
     return <Loader />;
   }
