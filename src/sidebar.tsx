@@ -90,7 +90,7 @@ const SideBar: React.FC<SideBarProps> = ({ isOpen, toggle }) => {
         </NavItem>
         <NavItem>
           <Link href="#sobre" passHref>
-            <StyledLink onClick={toggle}>Sobre nós</StyledLink>
+            <StyledLink onClick={toggle}>Sobre</StyledLink>
           </Link>
         </NavItem>
         <NavItem>
