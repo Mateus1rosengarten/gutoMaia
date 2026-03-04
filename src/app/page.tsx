@@ -1,35 +1,20 @@
 "use client";
-import HeroSection from "@/hero";
-import Footer from "./footer";
-import TargetPublic from "@/publico";
+import HeroSection from "@/components/Hero";
+import Footer from "../footer";
+import TargetPublic from "@/targetPublic";
 import About from "@/about";
 import NavBar from "@/navbar";
-import PictureBig from "@/pictureBig";
-import Service from "@/service";
+import PictureBig from "@/footer/pictureBig";
+import Service from "@/services";
 import SideBar from "@/sidebar";
-import { useState, useEffect } from "react";
-import Loader from "@/loader";
-
+import { useState } from "react";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   const toggleModal = () => {
     setIsOpen(!isOpen);
   };
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false); 
-    }, 200);
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (isLoading) {
-    return <Loader />;
-  }
 
   return (
     <div>
