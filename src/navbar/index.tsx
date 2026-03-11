@@ -33,7 +33,7 @@ const Navbar: React.FC<NavBarProps> = ({ toggle }) => {
         <Image
           src={"/images/logo.png"}
           alt="Logo Guto Maia"
-          width={120}
+          width={80}
           height={80}
           objectFit="cover"
         />
